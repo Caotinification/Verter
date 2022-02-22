@@ -1,4 +1,5 @@
 package Measurement
+
 object Length extends Converter {
 	def MetersToFeet(m: Double): Double = m * METER_TO_FOOT
 	def MetersToFeet(m: Int, cm: Double): BigUSmallU = UaToUb(m+cm/CM_IN_M, IN_IN_FT, MetersToFeet)

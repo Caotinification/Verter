@@ -7,5 +7,7 @@ object Main {
 		println(Length.FeetToMeters(a, b))
 		println(Temperature.FahrenheitToCelsius(a))
 		println(Weight.PoundsToKilograms(a,b))
+		println(Money.MakeChange(a))
+
 	}
 }
